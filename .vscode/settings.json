@@ -1,0 +1,23 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        ".fantomasignore": "ignore",
+        "string.h": "c",
+        "winsock2.h": "c",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "cstring": "cpp",
+        "random": "cpp"
+    },
+    
+        "code-runner.runInTerminal": true,
+      
+      
+}
