@@ -337,7 +337,7 @@ class dubins_cheak{
           int length=B.x.size();
           
           // 打开一个输出文件流，用于写入CSV文件
-           ofstream outFile("D:\\dubins_3d\\dubins_3d\\log_2UAV\\log_B.csv");
+           ofstream outFile("..\\log_2UAV\\log_B.csv");
  
           // 检查文件是否成功打开
            if (!outFile.is_open()) {
@@ -357,7 +357,7 @@ class dubins_cheak{
           int length=B.x.size();
           
           // 打开一个输出文件流，用于写入CSV文件
-           ofstream outFile("D:\\dubins_3d\\dubins_3d\\log_2UAV\\log_A.csv");
+           ofstream outFile("..\\log_2UAV\\log_A.csv");
  
           // 检查文件是否成功打开
            if (!outFile.is_open()) {
