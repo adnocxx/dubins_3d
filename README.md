@@ -2,7 +2,7 @@
  Flight control of two aircraft Dobbins path planning collision detection
 
 本程序包含以下内容：    
-单机版（1UAV）：对无人机的路径进行三维规划  
+单机版（1UAV）：对无人机的路径进行三维规划（二维dubins）  
 双机版（2UAV）：对两个无人机规划的路径进行碰撞检测
 
 ## src
