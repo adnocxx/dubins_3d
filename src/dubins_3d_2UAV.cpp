@@ -333,11 +333,11 @@ class dubins_cheak{
           return B;
      }
      
-     void creat_log_B(all_points B){  //保存第二个无人机的日志
+     void creat_log_B(all_points B){  //保存无人机的日志
           int length=B.x.size();
           
           // 打开一个输出文件流，用于写入CSV文件
-           ofstream outFile("log_B.csv");
+           ofstream outFile("D:\\dubins_3d\\dubins_3d\\log_2UAV\\log_B.csv");
  
           // 检查文件是否成功打开
            if (!outFile.is_open()) {
@@ -357,7 +357,7 @@ class dubins_cheak{
           int length=B.x.size();
           
           // 打开一个输出文件流，用于写入CSV文件
-           ofstream outFile("log_A.csv");
+           ofstream outFile("D:\\dubins_3d\\dubins_3d\\log_2UAV\\log_A.csv");
  
           // 检查文件是否成功打开
            if (!outFile.is_open()) {
