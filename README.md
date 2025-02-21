@@ -12,10 +12,9 @@
 
 ### dubins_3d_1UAV
 
-
 在main函数中修改基本信息：
 
-按照UAV结构体中的说明进行更改       
+按照UAV结构体中的说明进行更改
 
     get_picture_1UAV  struct UAV{ 
         float x[2],y[2],z[2],R_xy,v,theat,fai;
