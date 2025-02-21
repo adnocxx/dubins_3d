@@ -337,11 +337,11 @@ class dubins_cheak{
           int length=B.x.size();
           
           // 打开一个输出文件流，用于写入CSV文件
-           ofstream outFile("..\\log_2UAV\\log_B.csv");
+           ofstream outFile("log_2UAV\\log_B.csv");
  
           // 检查文件是否成功打开
            if (!outFile.is_open()) {
-            cerr << "Error opening file!" << endl;
+            cerr << "Error opening file B!" << endl;
            }
            outFile<<"x"<<","<<"y"<<","<<"z"<<endl; //写入标题
               // 将三个数组的数据写入CSV文件
@@ -357,11 +357,11 @@ class dubins_cheak{
           int length=B.x.size();
           
           // 打开一个输出文件流，用于写入CSV文件
-           ofstream outFile("..\\log_2UAV\\log_A.csv");
+           ofstream outFile("log_2UAV\\log_A.csv");
  
           // 检查文件是否成功打开
            if (!outFile.is_open()) {
-            cerr << "Error opening file!" << endl;
+            cerr << "Error opening file A!" << endl;
            }
            outFile<<"x"<<","<<"y"<<","<<"z"<<endl; //写入标题
               // 将三个数组的数据写入CSV文件
